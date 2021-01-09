@@ -2,7 +2,7 @@ import "./App.css";
 import React, { Suspense } from "react";
 import ThumbNail from "./thumbNail";
 // using React.lazy which allows the use of  a dynamic import as a react element.
-// returns a promimise that will resolve to  an export with a component
+// returns a promimise that will resolve to  an import with a component
 // Using SetTimeout to act as a longer reload  for testing
 const FullSizeImage = React.lazy(() => {
   return new Promise((resolve) => {
