@@ -1,6 +1,5 @@
 import "./App.css";
 import React from "react";
-// I added two seperate classNames to the image so that it was clear that the second image was not covering up the first.
 function ThumbNail() {
   return (
     <img
