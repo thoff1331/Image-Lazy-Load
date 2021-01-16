@@ -5,7 +5,6 @@ function ThumbNail() {
   return (
     <img
       alt="Blurry Shoe"
-      className="thumbNail"
       src={"https://forge-homework.s3.amazonaws.com/thumb.jpg"}
     />
   );
